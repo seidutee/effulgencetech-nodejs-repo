@@ -8,7 +8,7 @@ pipeline{
 
 	agent any
 
-	//rename the user name seidut with the username of your dockerhub repo
+	//rename the user name with the username of your dockerhub repo.
 	environment {
 		DOCKERHUB_CREDENTIALS=credentials('DOCKERHUB_CREDENTIALS')
 		IMAGE_REPO_NAME = "seidut/effulgencetech-nodejs-img"
